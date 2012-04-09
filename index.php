@@ -13,10 +13,10 @@
 
 	<meta name="viewport" content="width=device-width">
 
-	<link rel="stylesheet" href="/static/html5boilerplate/css/style.css">
-	<link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="static/html5boilerplate/css/style.css">
+	<link rel="stylesheet" href="static/bootstrap/css/bootstrap.min.css">
 
-	<script src="/static/html5boilerplate/js/libs/modernizr-2.5.3.min.js"></script>
+	<script src="static/html5boilerplate/js/libs/modernizr-2.5.3.min.js"></script>
 </head>
 <body>
 <header>
@@ -62,7 +62,7 @@ else {
 </footer>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="/static/html5boilerplate/js/libs/jquery-1.7.2.min.js"><\/script>')</script>
+<script>window.jQuery || document.write('<script src="static/html5boilerplate/js/libs/jquery-1.7.2.min.js"><\/script>')</script>
 
 </body>
 </html>
