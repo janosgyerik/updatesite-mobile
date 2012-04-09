@@ -24,7 +24,7 @@
 </header>
 <div role="main" class="container-fluid">
 <h1>Mobile_Site_Index</h1>
-<p>The first file is the latest, older versions are below.</p>
+<p>First file is the latest, older versions are below.</p>
 <?php 
 $endsWith = '.apk';
 function endsWith($haystack, $needle) {
@@ -46,13 +46,11 @@ if ($handle = opendir('.')) {
 ksort($files);
 
 if ($files) {
-    echo '<ul class="files unstyled">';
     $file = array_pop($files);
-    echo '<li><a href="#" class="btn btn-primary">'.$file.'</a></li>';
+    echo '<p><a href="#" class="btn btn-large btn-primary">'.$file.'</a></p>';
     foreach(array_reverse($files) as $file) {
-        echo '<li><a href="#" class="btn">'.$file.'</a></li>';
+        echo '<p><a href="#" class="btn btn-large">'.$file.'</a></p>';
     }
-    echo '</ul>';
 }
 else {
     echo '<p>No files that end with: '.$endsWith.'</p>';
