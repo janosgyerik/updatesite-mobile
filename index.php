@@ -28,7 +28,12 @@ if ($files) {
     $tmpl_files = join('', $files_formatted_list);
 }
 
-$html = file_get_contents('index.php.html');
+$html_file = 'index.php.html';
+if (!file_exists($html_file)) {
+    $html_file .= '.sample';
+}
+
+$html = file_get_contents($html_file);
 echo str_replace(
     array('{{latest}}', '{{files}}'),
     array($tmpl_latest, $tmpl_files),
