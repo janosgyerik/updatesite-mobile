@@ -21,7 +21,7 @@ function matches($filename) {
 $files = array();
 if ($handle = opendir('.')) {
     while (false !== ($filename = readdir($handle))) {
-        if (matches($filename)) {
+        if (is_file($filename) && matches($filename)) {
             $files[filemtime($filename)] = $filename;
         }
     }
