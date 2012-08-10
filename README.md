@@ -21,7 +21,10 @@ Features
 - Skinnable: copy `index.php.html.sample` to `index.php.html` and customize
 - Configurable:
 
-        - filename patterns to match
-        - maximum number of files to show
+    - filename patterns to match
+    - maximum number of files to show
 
 
+Demo
+----
+- http://blog.ecomobilecitizen.com/download/
