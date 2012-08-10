@@ -18,19 +18,13 @@ Features
 - Ultra portable: all you need is a PHP enabled web server
 - Valid HTML5: courtesy of http://html5boilerplate.com/
 - Pretty: courtesy of http://twitter.github.com/bootstrap/
-- Skinnable: *coming soon*
+- Skinnable: copy `index.php.html.sample` to `index.php.html` and customize
 - Customizable: *coming soon*
 
 
 TODO
 ----
 - make it more customizable
-
-    - convert index.php to index.php.html.sample template
-
-        - title
-        - subtitle
-        - files
 
     - index.php.html is not part of the repo but ignored
     - index.php renders index.php.html or else the sample
