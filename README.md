@@ -19,18 +19,18 @@ Features
 - Valid HTML5: courtesy of http://html5boilerplate.com/
 - Pretty: courtesy of http://twitter.github.com/bootstrap/
 - Skinnable: copy `index.php.html.sample` to `index.php.html` and customize
-- Customizable: *coming soon*
+- Configurable:
+
+        - can customize filename patterns to match *(coming soon)*
+        - multiple filename patterns to match *(coming soon)*
+        - maximum number of files to show *(coming soon)*
 
 
 TODO
 ----
-- make it more customizable
+- configurable:
 
-    - index.php.html is not part of the repo but ignored
-    - index.php renders index.php.html or else the sample
-
-- more parameters for file matching
-
-    - index.php.config if exists
-    - multiple patterns to match
-    - max number of files to show per pattern
+    - configurable via index.php.config if exists
+    - can customize filename patterns to match
+    - multiple filename patterns to match
+    - maximum number of files to show
