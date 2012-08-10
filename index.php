@@ -47,9 +47,9 @@ ksort($files);
 
 if ($files) {
     $file = array_pop($files);
-    echo '<p><a href="#" class="btn btn-large btn-primary">'.$file.'</a></p>';
+    echo '<p><a href="'.$file.'" class="btn btn-large btn-primary">'.$file.'</a></p>';
     foreach(array_reverse($files) as $file) {
-        echo '<p><a href="#" class="btn btn-large">'.$file.'</a></p>';
+        echo '<p><a href="'.$file.'" class="btn btn-large">'.$file.'</a></p>';
     }
 }
 else {
