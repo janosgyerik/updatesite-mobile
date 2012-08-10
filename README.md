@@ -18,13 +18,15 @@ Features
 - Ultra portable: all you need is a PHP enabled web server
 - Valid HTML5: courtesy of http://html5boilerplate.com/
 - Pretty: courtesy of http://twitter.github.com/bootstrap/
-- Skinnable: copy `index.php.html.sample` to `index.php.html` and customize
-- Configurable:
-
-    - filename patterns to match
-    - maximum number of files to show
+- Skinnable: `cp samples/template.html .` and customize
+- Configurable: `cp samples/config.php .` and customize
 
 
-Demo
-----
+Demo (active sites)
+-------------------
 - http://blog.ecomobilecitizen.com/download/
+
+
+Screenshots
+-----------
+![Android](https://github.com/titan2x/updatesite-mobile/raw/master/screenshot.png)
