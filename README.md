@@ -21,16 +21,7 @@ Features
 - Skinnable: copy `index.php.html.sample` to `index.php.html` and customize
 - Configurable:
 
-        - can customize filename patterns to match *(coming soon)*
-        - multiple filename patterns to match *(coming soon)*
-        - maximum number of files to show *(coming soon)*
+        - filename patterns to match
+        - maximum number of files to show
 
 
-TODO
-----
-- configurable:
-
-    - configurable via index.php.config if exists
-    - can customize filename patterns to match
-    - multiple filename patterns to match
-    - maximum number of files to show
